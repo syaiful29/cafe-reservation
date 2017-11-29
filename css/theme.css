@@ -4,6 +4,10 @@ body {
 	font-size: 14px;
 }
 
+.container isi a{
+margin: 10px;
+}
+
 .section {
 	padding-top: 48px;
 }
@@ -18,7 +22,7 @@ body {
  }
 
 /*NAVBAR*/
-.nav {
+.navbar {
 	padding-top: 12px;
 	padding-bottom: 12px;
 	background-color: #2b303a;
@@ -26,6 +30,22 @@ body {
 
 .nav-item :not(last-child) {
 	padding-right: 48px;
+}
+
+/*PILLS*/
+.nav {
+	padding-top: 100px;
+	padding-bottom: 10px;
+}
+.nav ul{
+	margin: 10px;
+	
+}
+.nav-tabs{
+	text-align: center;
+}
+.nav li a{
+	text-align: center !important;
 }
 
 
@@ -83,7 +103,7 @@ h2 {
 	color: #ffffff;
 }
 
-.nav li a:hover{
+.navbar li a:hover{
 	text-decoration: underline;
 	color: #ffffff;
 }

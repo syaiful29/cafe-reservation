@@ -35,19 +35,20 @@ margin: 10px;
 /*PILLS*/
 .nav {
 	padding-top: 100px;
-	padding-bottom: 10px;
-}
-.nav ul{
-	margin: 10px;
-	
-}
-.nav-tabs{
+	justify-content: center;
 	text-align: center;
-}
-.nav li a{
-	text-align: center !important;
+	border-width: 2px solid #333;
 }
 
+
+/*ISI*/
+
+.isi{
+	padding-top: 10px;
+}
+.isi row{
+	padding-bottom: 50px !important;
+}
 
 /*MAIN HEADER*/
 .main-header {
